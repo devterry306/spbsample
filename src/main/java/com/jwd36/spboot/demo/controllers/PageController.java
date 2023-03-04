@@ -26,10 +26,5 @@ public class PageController {
         return "login";
     }
 
-    @RequestMapping(value = "/login",method = RequestMethod.POST)
-    public String loginPost(Model model){
-        model.addAttribute("title","Login Page");
-        System.out.println("Post method");
-        return "login";
-    }
+  
 }
